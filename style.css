@@ -1,0 +1,209 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+  }
+  #section1{
+    background-color: black;
+    display: flex;
+  }
+  #section1 div{
+    width: 50%;
+    min-height: 100vh;
+    height: auto;
+    padding: 20px;
+  }
+  #section1 div p{
+    font-size: medium;
+  }
+  #section1 p,#section1 button{
+    color: rgba(184, 188, 204, 1);
+    padding: 10px;
+  }
+  #section1 #title{
+    font-family: "Montserrat", sans-serif;
+color: rgba(87, 90, 133, 1);
+font-weight: 700;
+font-size: x-large;
+  }
+  #section1 img{
+    display: block;
+    margin: auto;
+    width:60%;
+    padding:30px;
+  }
+  #section1 p>b{
+    color: white;
+  }
+  #section1 #div{
+    background-color:rgba(87, 90, 133, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #section1 #div p{
+    font-weight: 700;
+    font-size: x-large;
+    text-align: center;
+  }
+  #section1 #div button{
+    background-color: rgba(87, 90, 133, 1);
+    border: 2px solid rgba(184, 188, 204, 1);
+   padding:10px;
+   width: 50%;
+   border-radius: 5px;
+   color: rgba(184, 188, 204, 1);
+   cursor: pointer;
+   margin: 10px;
+  } 
+  #section1 #div button:hover{
+    box-shadow: 0px 0px 5px 5px gray;
+  }
+  #section1 #div button:active{
+    box-shadow: 0px 0px 5px 5px green;
+  }
+  #section2{
+    background-color: black;
+  }
+  #section2 #section2title1{
+    font-family: "Montserrat", sans-serif;
+font-weight: 700;
+color: rgba(184, 188, 204, .5);
+padding:20px 0px; 
+width: 100%;
+  }
+  #section2 #section2title1 b{
+color:rgba(184, 188, 204, 1);
+  }
+  #section2 #div1{
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 20px;
+  }
+  #section2 #div1 div{
+width: 30%;
+padding:10px 0px;
+  }
+  #section2 #div1 div p{
+font-weight: 700;
+color:rgba(184, 188, 204, 0.5);
+padding: 5px 0px;
+  }
+  #section2 #div1 div p span{
+    font-weight: 400;
+  }
+  #section2 #section2title2{
+    font-family: "Montserrat", sans-serif;
+    color: rgba(184, 188, 204, 1);
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+  }
+  #section2 #div2{
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: rgba(87, 90, 133, 1);
+    margin: 20px 0px;
+  }
+  #section2 #div2 iframe{
+    width:100%;
+    height: 75vh;
+  }
+  #section2 #div3 #section2title3, #section2 #div4 #section2title4{
+    font-family: "Montserrat", sans-serif;
+    color: rgba(184, 188, 204, 1);
+    font-weight: 700;
+    font-size: x-large;
+    text-align: center;
+    padding: 20px;
+  }
+  #section2 #div3{
+    padding: 20px;
+  }
+  #section2 #div3 p{
+    color:rgba(184, 188, 204, 0.5);
+    font-weight: 700;
+    padding: 10px;
+    padding-left: 20px;
+  }
+  #section2 #div3 p span{
+    font-weight: 400;
+  }
+  #section2 #div4{
+    padding: 20px;
+
+  }
+  #section2 #div4 input{
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    border: 3px solid  rgba(87, 90, 133, 1);
+    border-radius: 5px;
+    background-image:url(Resources/search1.png);
+    background-repeat: no-repeat;
+    background-position:10px center;
+    background-size: 20px 20px;
+    margin:0px 20px 20px 20px;
+    width:calc(100% - 40px);
+    background-color: black;
+    padding-left: 35px;
+    color:white;
+}
+#section2 #div4 input:hover{
+  box-shadow: 0px 0px 5px 3px gray;
+}
+  #section2 #div4 input::placeholder{
+    color: rgba(184, 188, 204, 1);
+    opacity: 1;
+  }
+  #section2 #section2postoffices{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #section2 #section2postoffices div{
+    background-color: rgba(87, 90, 133, 1);
+    color: rgba(184, 188, 204, 1);
+    border-radius: 7px;
+    padding: 10px;
+    font-weight: 700;
+    width: 47%;
+    margin:10px;
+  }
+  #section2 #section2postoffices div p{
+    padding: 7px;
+  }
+  #section2 #section2postoffices div p span{
+    font-weight: 400;
+  }
+@media screen and (max-width:800px) {
+    #section1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #section1 div{
+        width: 100%;
+        height: auto;
+    }
+    #section1 img{
+        padding: 20px;
+    }
+    #section2 #section2postoffices div{
+        width: 70%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+}
